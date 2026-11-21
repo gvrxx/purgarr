@@ -1,0 +1,13 @@
+# Secrets and local data: never commit these
+.env
+*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# Private notes for Claude Code
+CLAUDE.local.md

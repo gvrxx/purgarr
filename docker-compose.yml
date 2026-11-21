@@ -1,0 +1,9 @@
+services:
+  purgarr:
+    build: .
+    image: purgarr:latest
+    container_name: purgarr
+    restart: unless-stopped
+    env_file: .env
+    volumes:
+      - /mnt/user/appdata/purgarr:/config

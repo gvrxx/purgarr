@@ -1,0 +1,2 @@
+# Keep Linux line endings, since the code runs on the Unraid server
+* text=auto eol=lf
